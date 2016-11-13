@@ -7,6 +7,10 @@ module Swaggard
       attr_reader :path
 
       def initialize(path)
+        
+        puts "operation path ----------------------"
+        puts path
+        
         @path = path
         @operations = {}
       end
